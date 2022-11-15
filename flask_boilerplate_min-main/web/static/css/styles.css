@@ -1,0 +1,49 @@
+/***GENERAL***/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    line-height 1.5;
+    color: #303841;
+    text-align: center;
+    background-color: #EEEEEE;
+    overflow-x: hidden;
+    font-size: 0.95rem;
+}
+
+th {
+text-align:center !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+/***ALERTS***/
+
+.error-container {
+    position: fixed;
+    width: 380px;
+    margin: 2% auto;
+    left: 100px;
+    right: 0;
+    z-index: 999;
+}
+
+/***NOTIFICATIONS***/
+
+.notification {
+  background-color: #555;
+  position: relative;
+  display: inline-block;
+  border-radius: 2px;
+}
+
+.notification .badge {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  border-radius: 100%;
+  background: red;
+  color: white;
+}
